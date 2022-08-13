@@ -3,6 +3,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
+  coveragePathIgnorePatterns: ['protocols'],
   transform: {
     '.+\\.ts$': 'ts-jest'
   }
