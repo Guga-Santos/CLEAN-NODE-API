@@ -3,7 +3,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
-  coveragePathIgnorePatterns: ['protocols'],
+  coveragePathIgnorePatterns: ['protocols', 'main'],
   preset: '@shelf/jest-mongodb',
   transform: {
     '.+\\.ts$': 'ts-jest'
